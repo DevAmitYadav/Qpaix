@@ -67,8 +67,8 @@ npm start    # Start frontend on PORT 3000
 | Method | Endpoint        | Description                 |
 |--------|---------------|-----------------------------|
 | GET    | /api/students  | Fetch all students         |
-| GET    | /api/students/:id | Fetch student by ID       |
-| POST   | /api/students  | Add new student           |
+| GET    | /api/students/:id | Fetch student by ID     |
+| POST   | /api/students  | Add new student            |
 | PUT    | /api/students/:id | Update student          |
 | DELETE | /api/students/:id | Delete student          |
 

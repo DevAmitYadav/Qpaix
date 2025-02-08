@@ -49,7 +49,8 @@ const StudentForm = () => {
             setValue("address", selectedStudent.address);
             setValue("phone", selectedStudent.phone);
             if (selectedStudent.image) {
-                setPreview(`http://localhost:5000${selectedStudent.image}`);
+             let url = process.env.REACT_APP_API_BASE_URL || "https://qpaix-student-management.onrender.com" ; 
+                setPreview(`${url}${selectedStudent.image}`);
             }
         }
     }, [selectedStudent, setValue, isEditing]);

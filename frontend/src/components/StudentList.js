@@ -23,7 +23,7 @@ import {
 import { debounce } from "lodash";
 import Loader from "../components/Loader/Loader.js"; // Import the loader component
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const API_BASE_URL = process.env.REACT_APP_API_URL || "https://qpaix-student-management.onrender.com";
 const defaultProfile = "/images/default-profile.jpg";
 
 const StudentList = () => {
